@@ -1,1 +1,194 @@
-test
+//    var myWindow = Ext.create('Ext.form.Panel', {
+//    	
+//    	floating: true,
+//        centered: true,
+//        modal: true,
+//  	    width: 600,
+//        height: 200,
+//        bodyPadding:10,               
+// 
+//        items: [{
+//	           xtype:"textfield",
+//	           fieldLabel: Label.all.Label,				
+//	           width: 150,
+//	           name: 'metricLabel',
+//	           labelWidth: 100,
+//	           labelPad: 15,
+//	           width: 420,
+//	           readOnly:true,
+//	           margin: '10 10 10 20'
+//           },
+//                {
+//                    xtype: "checkbox",
+//                    fieldLabel: Label.monitor.Persistent,
+//                    name: "persistent",
+//                    id: "persistent",
+//                    value: "",
+//                    padding: '20 0 10 20',
+//                    checked :false
+//        		}, {
+//        			xtype: "radiogroup",		
+//        			fieldLabel: Label.all.Status,
+//                   allowBlank: false,
+//                   id : "Status",
+//                   padding: '10 0 10 20',
+//        			items: [{
+//        					boxLabel: Label.all.ActiveDisplayed,
+//        					name: "status",
+//        					inputValue: "2",
+//        					width: 150,
+//        					checked :false
+//        				}, {
+//        					boxLabel: Label.all.ActiveNotDisplayed,
+//        					name: "status",
+//        					inputValue: "1",
+//        					width: 160,
+//        					checked :false
+//        				}, {
+//        					boxLabel: Label.all.Disabled,
+//        					name: "status",
+//        					inputValue: "0",
+//        					width: 150,
+//        					checked :false
+//        				}
+//        			]
+//        		}],
+//
+//        buttons: [{
+//        	text: Label.button.Save,
+//        	handler: function() {
+//           		myWindow.hide();
+//				}
+//        }, {
+//        	 text: Label.all.Cancel,
+//        	 handler: function() {
+//            		myWindow.hide();
+//				}
+//        	 
+//        }]
+//    });
+    
+//    var mWindow = new Ext.Window({
+//
+//  	  layout: 'fit',
+//  	  width: 600,
+//        height: 200,
+//        modal: true,
+//        closeAction: 'hide',
+//        items: new Ext.Panel(
+//        {
+//           items: [
+//           {
+//	           xtype:"textfield",
+//	           fieldLabel: Label.all.Label,				
+//	           width: 150,
+//	           value: "",//record.get("metricLabel"),
+//	           labelWidth: 100,
+//	           labelPad: 15,
+//	           width: 200,
+//	           readOnly:true,
+//	           margin: '10 10 10 20'
+//           },{
+//	           xtype:"textfield",
+//	           fieldLabel: Label.all.Identifier,				
+//	           width: 150,
+//	           value: metricId,
+//	           labelWidth: 100,
+//	           labelPad: 15,
+//	           width: 200,
+//	           readOnly:true,
+//	           margin: '10 10 10 20'
+//           },{
+//	           xtype:"textfield",
+//	           fieldLabel: Label.all.Type,				
+//	           width: 150,
+//	           value: objectTypeLabel,
+//	           labelWidth: 100,
+//	           labelPad: 15,
+//	           width: 200,
+//	           readOnly:true,
+//	           margin: '10 10 10 20'
+//           },{
+//	           xtype:"textfield",
+//	           fieldLabel: Label.all.DataType,				
+//	           width: 150,
+//	           value: dataTypeLabel,
+//	           labelWidth: 100,
+//	           labelPad: 15,
+//	           width: 200,
+//	           readOnly:true,
+//	           margin: '10 10 10 20'
+//           },{
+//	           xtype:"textfield",
+//	           fieldLabel: Label.monitor.Attribute,				
+//	           hiddenName: "metricIdFrom",
+//	           width: 150,
+//	           value:  attribute,
+//	           labelWidth: 100,
+//	           labelPad: 15,
+//	           width: 200,
+//	           margin: '10 10 10 20'
+//           },
+//           {
+//               xtype: "checkbox",
+//               fieldLabel: Label.monitor.Persistent,
+//               name: "persistent",
+//               id: "persisten",
+//               value: "",
+//               padding: '20 0 10 20',
+//               checked :false
+//   		}, {
+//   			xtype: "radiogroup",		
+//   			fieldLabel: Label.all.Status,
+//              allowBlank: false,
+//              id : "Statu",
+//              padding: '10 0 10 20',
+//   			items: [{
+//   					boxLabel: Label.all.ActiveDisplayed,
+//   					name: "status",
+//   					inputValue: "2",
+//   					width: 150,
+//   					checked :false
+//   				}, {
+//   					boxLabel: Label.all.ActiveNotDisplayed,
+//   					name: "status",
+//   					inputValue: "1",
+//   					width: 160,
+//   					checked :false
+//   				}, {
+//   					boxLabel: Label.all.Disabled,
+//   					name: "status",
+//   					inputValue: "0",
+//   					width: 150,
+//   					checked :false
+//   				}
+//   			]
+//   		},{
+// 			
+// 			
+// 			xtype: 'buttongroup',
+//
+//            items: [  {xtype:'button',
+//               	  width:'100',
+//               	  id: 'save',
+//               	  text: Label.button.Save,
+//               	  handler: function() {
+//               			console.log("clique bouton save ");
+//               			//saveActiveDesactive();	
+//               			mWindow.hide();
+//     				}
+//                 },
+//                 {xtype: 'spacer', width: 30},
+//                 {
+//               	  xtype:'button',
+//               	  width:'100',
+//               	  id: 'back',
+//               	  text: Label.all.Cancel,
+//               	  handler: function() {
+//               		mWindow.hide();
+//   				}
+//                 }]
+// 		}
+//   		]
+//        })
+//  });
